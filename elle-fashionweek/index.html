@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>ELLE中文网2015春夏伦敦时装周</title>
+    <meta name="description" content="24H@fashion week”将作为2015春夏伦敦时装周专题的最大亮点，以时间轴的方式为网友全方位直击时装周的台前幕后。">
+    <meta name="keywords" content="2015春夏伦敦时装周，春夏伦敦时装周，伦敦时装周">
+    <meta property="data-title" content="分享标题">
+    <meta property="data-description" content="分享描述">
+    <meta property="data-image" content="http://elletv.baomihua.com/ellecode/pinkpunk/mobile/images/weixin_img.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <link rel="shortcut icon" href="http://mini.ellechina.com/favicon.ico">
+    <link rel="stylesheet" href="styles//normalize.css" />
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="container">
+        <div id="loading">
+            <div id="loader"></div>
+        </div>
+        <div id="cards">
+            <div class="card cover">
+                <!-- cover: 封面模板 -->
+                <div class="cover-img">
+                    <img src="images/home1.png" alt="">
+                </div>
+                <div class="cover-float-img">
+                    <img src="images/angelababy.png" alt="">
+                </div>
+            </div>
+            <div class="card tpl1" data-time="0815">
+                <!-- 模板1：上图下文 -->
+                <div class="top-img">
+                    <img src="images/pp4.png" alt="">
+                </div>
+                <div class="bottom-text">最后一刻赶上Victoria Beckham大秀，竟然还有幸拍到了小贝和小七的合影。</div>
+            </div>
+            <div class="card tpl2" data-time="1035">
+                <!-- 模板2：上文下图 -->
+                <div class="top-text">开季大片，我们邀请到巴黎风格典范最佳代言人之一、法国贵族模特——Caroline de Maigret来为我们演绎属于巴黎时髦风格的秋冬。</div>
+                <div class="bottom-img">
+                    <img src="images/pp9.png" alt="">
+                </div>
+            </div>
+            <div class="card tpl3" data-time="1315">
+                <!-- 模板3：左图右文 -->
+                <div class="left-img">
+                    <img src="images/pp2.png" alt="">
+                </div>
+                <div class="right-text">
+                    <div class="right-text-wrapper">今日赶了个大早，没想到时髦的达人们也纷纷现身路上！捕捉到的这只Louis Vuitton包包是不是可爱极了！</div>
+                </div>
+            </div>
+            <div class="card tpl4" data-time="1500">
+                <!-- 模板4：左文右图 -->
+                <div class="left-text">
+                    <div class="left-text-wrapper">我们正式揭幕这个可以捕捉到Chloé 真正时髦和创新力的奢华皮件系列。</div>
+                </div>
+                <div class="right-img">
+                    <img src="images/pp11.png" alt="">
+                </div>
+            </div>
+            <div class="card tpl5" data-time="2025">
+                <!-- 模板5：上图下文，内容垂直居中 -->
+                <div class="mid-img-text">
+                    <div class="mid-wrapper">
+                        <div class="top-img">
+                            <img src="images/pp6.png" alt="">
+                        </div>
+                        <div class="bottom-text">宽脸或是有脸型困扰的女孩，学好打亮修容技巧，真的受用无穷。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card tpl6" data-time="2125">
+                <!-- 模板6：全屏图，文在中间 -->
+                <div class="mid-img">
+                    <img src="images/pp8.png" alt="">
+                </div>
+                <div class="mid-circle">
+                    <div class="mid-text">趁着Zac Posen
+                        <br/>还未开场，先溜到了
+                        <br/>后台一探究竟。
+                        <br/>碰上设计师本人与
+                        <br/>超模Coco Rocha，
+                        <br/>赶紧来个合照！
+                    </div>
+                </div>
+            </div>
+            <div class="card tpl7" data-time="2225">
+                <!-- 模板7：全屏图 -->
+                <div class="mid-img">
+                    <img src="images/pp8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="timeline">
+            <div id="highlight"></div>
+        </div>
+        <div id="time">
+            <div id="time-text"></div>
+        </div>
+
+        <div id="arrow">
+            <div id="arrow-wrapper" class="jump"></div>
+        </div>
+
+        <div id="play-icon"></div>
+        <audio src="http://mini.ellechina.com/15ssfashionweek/music/0918.mp3" id="music" loop></audio>
+    </div>
+
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/jquery.hammer-full.min.js"></script>
+    <script src="scripts/imagesloaded.pkgd.min.js"></script>
+
+    <script src="scripts/analytics.js"></script>
+    <script src="scripts/dc.js"></script>
+    <script src="scripts/s_code.js"></script>
+    <script src="scripts/stats.js"></script>
+    <script language="JavaScript" type="text/javascript">
+    <!--/* You may give each page an identifying name, server, and channel onthe next lines. */
+    s.pageName = "elle:mobile:weixin:mini:15ssfashionweek:london:ELLE中文网2015春夏伦敦时装周";
+    s.server = "";
+    s.channel = "15ssfashionweek";
+    s.pageType = "";
+    s.hier1 = "elle,mobile,weixin,mini,15ssfashionweek,london";
+    s.prop1 = document.URL;
+    s.prop2 = "";
+    s.prop3 = "";
+    s.prop4 = "ELLE中文网2015春夏伦敦时装周";
+    s.prop5 = "";
+    s.prop6 = "";
+    s.prop20 = "elle:mobile:weixin:mini:15ssfashionweek:london:ELLE中文网2015春夏伦敦时装周:0914";
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code = s.t();
+    if (s_code) document.write(s_code) //-->
+    </script>
+    <script src="scripts/weixin.js"></script>
+
+    <script src="scripts/card.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
