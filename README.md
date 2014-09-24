@@ -1,4 +1,4 @@
-wepage
+features
 ======
 
 wechat page maker
